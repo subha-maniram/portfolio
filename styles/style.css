@@ -1,0 +1,321 @@
+*{
+	padding:0;
+	margin:0;
+	font-family;sans-seriff;
+	box-sizing:border-box;
+}
+.hero
+{
+	height: 100vh;
+	width: 100%;
+	background-image:url(../styles/muthu.jpeg);
+	background-size: cover;
+	background-position: center;
+
+} 
+nav
+{
+	display:flex;
+	align-items:center;
+	padding-left:40%;
+}
+nav ul
+{
+	display:flex;
+	
+}
+nav ul li
+{
+
+	padding:10px 20px;
+}
+.name
+{
+	color:white;
+	font-size:35px;
+	padding-top:10px;
+	padding-left:50px;
+}
+ span
+{
+	color:green;
+}
+nav ul li a
+{
+ color:white;
+ font-weight:bold;
+ text-decoration:none;
+ font-size:25px;
+ 
+ }
+ nav ul li a:hover
+ {
+	 color:red;
+	 transition:1s;
+ }
+ .btn
+ {
+	 background-color:red;
+	 color:white;
+	 font-weight:bold;
+	 text-decoration:none;
+	 border-radius:30px;
+	 font-size:25px;
+	 
+ }
+.content
+{
+	top: 95px;
+	left: 35px;
+	position:absolute;
+	transform:translate(50%,50%);
+	
+}
+h2
+{
+	color:pink;
+	font-size:20 px;
+	margin-bottom:20px;
+}
+h1
+{
+    color:white;
+	margin-bottom:20px;
+}
+h3
+{
+	color:white;
+	margin-bottom:20px;
+}
+ .subscribe form input:first-child
+ {
+	display:inline-block;
+	padding:10px 120px 13px 14px;
+	border:3px solid red;
+	width:100%;
+	border-radius:40px;
+ 	
+ }
+.subscribe form input:last-child
+{
+ display:inline-block;
+ padding:10px 20px;
+ border:none;
+ background-color:red;
+ top:151px;
+ right:7px;
+ position:absolute;
+ border-radius:40px;
+ box-shadow:0px 0px 20px black ;
+}
+.about_me
+{
+	width:100%;
+	padding:100px 0px;
+	background-color:darkgray;
+	
+}
+.about_me img
+{
+	height:500px;
+	width:500px;
+}
+.about_content
+{
+	color:white;
+    margin-left:50px;
+}
+.main
+{
+	display:flex;
+	margin-left:100px;
+}
+.about_content h3
+{
+	color:white;
+	font-size:50px;
+}
+.about_content h5
+{
+	color:white;
+	font-size:30px;
+	
+}
+.about_content p
+{
+	padding: 10px 0px 0px 0px;
+	color:white;
+
+}
+	.btn_talk
+	{
+		background-color:red;
+		border-radius:40px;
+		font-weight:bold;
+		text-decoration:none;
+		color:white;
+		padding:0px 5px 0px 5px;
+	}
+	.btn_talk:hover
+	{
+		background-color:transparent;
+		border:2px solid red;
+		cursor:pointer;
+	}
+	.skills
+	{
+		background-color:black;
+		width:100%;
+		
+	}
+	.title h2
+	{
+		color:white;
+		font-size:60px;
+		text-align:center;
+	}
+	.box
+	{
+		display: flex;
+		align-items:center;
+		justify-content:center;
+		
+	}
+	.card
+	{
+		height:300px;
+		width:270px;
+		background-color:gray;
+		border-radius:25px;
+		margin:12px;
+	}
+		
+	.card h4
+	{
+		font-size:20px;
+		color:white;
+		text-align:center;
+		margin-top:10px;
+	}
+	.para p
+	{
+		color:white;
+		text-align:center;
+	    line-height:30px;
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	.Button
+	{
+		background-color:red;
+		color:white;
+		border-radius:30px;
+		text-decoration:none;
+		padding:10px 20px;
+		transition:2s;
+		margin-left:70px;
+	}
+	.button:hover
+	{
+      background-color:transparent;
+	  border:2px solid red;
+	  cursor:pointer;
+	}
+	.card i
+	{
+		color:red;
+		font-size:40px;
+		text-align:center;
+		display:block;
+	}
+	.hire
+	{
+		width:100%;
+		height:200px;
+		align-items:center;
+		background-color:gray;
+		justify-content:center;
+		display:flex;
+		
+	}
+	.hire p
+	{
+		font-size:40px;
+		color:white;
+	}
+	.hire .button
+	{
+		background-color:red;
+		border-radius:30px;
+		color:white;
+		transition:2s;
+		padding:10px 20px;
+		text-decoration:none;
+		
+		
+	}
+.hire .button:hover
+{
+  background-color:transparent;
+  border:2px solid red;
+  cursor:pointer;
+}  
+.footer
+{
+	background-color:black;
+	width:100%;
+	height:auto;
+    justify-content:center;
+	color:white;
+
+}
+.footer .author
+{
+	font-size:25px;
+	color:white;
+	font-weight:bold;
+	margin-left:50%;
+}
+.footer .reach
+{
+	font-size:15px;
+	color:white;
+	font-weight:bold;
+	position:absolute;
+	margin-left:50%;
+
+}
+	.footer .social-media a
+	{
+		width:40px;
+		height:40px;
+        display:inline-flex ;
+		background:red;
+		border-radius:50px;
+		color:white;
+		position:absoulte;
+		align-items:center;
+		justify-content:center;
+		text-decoration:none;
+		margin:20px 10px;
+		font-size:25px;
+		margin-left:20%;
+		
+	
+	}
+	.footer .social-media a:hover
+	{
+		background-color:transparent;
+		border:2px solid red;
+		cursor:pointer;
+	}
+	.footer .copy
+	{
+		font-size:15px;
+		font-weight:bold;
+		color:white;
+		margin-left:50%;
+	}
+	
+	
+	   
